@@ -1,0 +1,17 @@
+# Local and hidden project files/directories
+.claude
+.venv
+!.gitignore
+!.env.example
+
+# Local backups
+backup/
+
+# Python caches and generated runtime state
+__pycache__/
+*.py[cod]
+
+
+# Generated evaluation outputs
+runs/
+

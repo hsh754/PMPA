@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "owner": "peter.huang@email.com",
+  "current_user": "peter.huang@email.com",
+  "accounts": {
+    "peter.huang@email.com": {
+      "inbox": [
+        "msg_000001"
+      ],
+      "sent": [
+        "msg_000002"
+      ]
+    },
+    "alice.chen@email.com": {
+      "inbox": [
+        "msg_000002"
+      ],
+      "sent": [
+        "msg_000001"
+      ]
+    }
+  },
+  "messages": {
+    "msg_000001": {
+      "id": "msg_000001",
+      "thread_id": "thread_000001",
+      "from": "alice.chen@email.com",
+      "to": [
+        "peter.huang@email.com"
+      ],
+      "cc": [],
+      "subject": "Project onboarding checklist",
+      "body": "Hi Peter, please review the harness onboarding checklist before the next evaluation run.",
+      "timestamp": "2026-07-03T05:19:04Z",
+      "read": false,
+      "reply_to": null
+    },
+    "msg_000002": {
+      "id": "msg_000002",
+      "thread_id": "thread_000002",
+      "from": "peter.huang@email.com",
+      "to": [
+        "alice.chen@email.com"
+      ],
+      "cc": [],
+      "subject": "Environment reset confirmation",
+      "body": "The local virtual email environment has been reset with deterministic seed data.",
+      "timestamp": "2026-07-03T05:20:04Z",
+      "read": true,
+      "reply_to": null
+    }
+  },
+  "next_message": 3,
+  "next_thread": 3
+}

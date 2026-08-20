@@ -1,0 +1,3 @@
+/image-reader 
+using ocr, please help me analyze and answer the following question from this image briefly: 
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image Reader"
+  short_description: "Read image metadata and OCR local images."
+  default_prompt: "Use $image-reader to read this local image."

@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "owner": "peter.huang@email.com",
+  "current_user": "peter.huang@email.com",
+  "template": {
+    "id": "form_volleyball_registration_001",
+    "title": "Volleyball Club Activity Time Survey",
+    "description": "Hi everyone, we are collecting your availability for future volleyball club activities. Please choose the time slots that work for you. If you have any additional information, feel free to write it in the final section.",
+    "fields": [
+      {
+        "id": "student_id",
+        "label": "Please fill in your student ID",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "name",
+        "label": "Please fill in your name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "volleyball_level",
+        "label": "How would you describe your volleyball level?",
+        "type": "choice",
+        "required": true,
+        "choices": [
+          "Beginner — I am new to volleyball or have limited experience.",
+          "Intermediate — I can serve, receive, and cooperate with teammates reasonably well.",
+          "Advanced — I have regular training or match experience."
+        ]
+      },
+      {
+        "id": "activity_time",
+        "label": "Which activity time works for you?",
+        "type": "choice",
+        "required": true,
+        "choices": [
+          "Wednesday 5:00 PM – 6:00 PM",
+          "Friday 10:00 AM – 11:00 AM",
+          "Sunday 5:00 PM – 6:00 PM",
+          "No strong preference"
+        ]
+      },
+      {
+        "id": "addition_info",
+        "label": "Any other info or comment?",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  },
+  "submissions": {},
+  "next_submission": 1
+}

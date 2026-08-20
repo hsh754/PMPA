@@ -1,0 +1,4 @@
+interface:
+  display_name: "Virtual Email"
+  short_description: "Simulate local email transactions with a JSON mailbox."
+  default_prompt: "Use the local virtual email skill to send, read, search, reply to, and reset simulated emails without contacting any real email service."

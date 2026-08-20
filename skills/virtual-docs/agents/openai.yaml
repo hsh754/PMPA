@@ -1,0 +1,4 @@
+interface:
+  display_name: "Virtual Docs"
+  short_description: "Simulate local shared/private docs."
+  default_prompt: "Use the local virtual docs skill to list, read, update, and reset simulated shared/private documents without contacting any real document service."

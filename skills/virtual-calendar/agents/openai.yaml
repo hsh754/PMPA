@@ -1,0 +1,4 @@
+interface:
+  display_name: "Virtual Calendar"
+  short_description: "Simulate local calendar event operations with a JSON calendar."
+  default_prompt: "Use the local virtual calendar skill to view, read, search, create, delete, and reset simulated calendar events without contacting any real calendar service."

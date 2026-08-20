@@ -1,0 +1,3 @@
+
+/virtual-calendar
+Please create a calendar event titled "Weekly Research Discussion" on tomorrow, from 10:00 AM to 11:00 AM. The event description should be: "Review the current experiment progress, discuss issues in dataset construction and evaluation metrics, and plan the next steps for improving the experimental setup."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF Reader"
+  short_description: "Read and OCR local PDF files."
+  default_prompt: "Use $pdf-reader to read this local PDF."

@@ -1,0 +1,6 @@
+question,subject,choices,answer
+Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.,abstract_algebra,"[""0"", ""1"", ""2"", ""3""]",1
+"Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.",abstract_algebra,"[""True, True"", ""False, False"", ""True, False"", ""False, True""]",1
+Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.,abstract_algebra,"[""True, True"", ""False, False"", ""True, False"", ""False, True""]",2
+Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.,abstract_algebra,"[""True, True"", ""False, False"", ""True, False"", ""False, True""]",0
+Find the characteristic of the ring 2Z.,abstract_algebra,"[""0"", ""3"", ""12"", ""30""]",0

@@ -1,0 +1,4 @@
+PyMuPDF==1.28.0
+pyarrow==16.1.0
+Pillow==12.3.0
+pypdf==6.9.1
