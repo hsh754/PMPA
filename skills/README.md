@@ -1,23 +1,59 @@
 # Skills installation
 
-[`skills/`](./) is the canonical source directory. `.claude/skills/` and OpenClaw's
-`workspace/skills/` are local installation targets.
+The `skills/` directory contains the skills used in our evaluations.
+Before running the evaluations, manually copy each skill folder into
+the corresponding agent's skill directory.
 
-Run these commands from the repository root.
+Copy the complete folders, including `SKILL.md`, `scripts/`, and any
+other supporting files. The provided skills are:
 
-## Install
+- `image-reader`
+- `pdf-reader`
+- `virtual-calendar`
+- `virtual-docs`
+- `virtual-email`
+- `virtual-form`
 
-Claude Code installs the skills into `.claude/skills/` under the current repository root:
+## Claude Code
 
-```bash
-python jobscripts/install_skills.py --target claude
+Copy these folders into `.claude/skills/` under the PMPA repository root.
+Create the destination directory if it does not exist.
+
+For example, `skills/virtual-email/` should be copied to
+`.claude/skills/virtual-email/`, so that its skill file is located at:
+
+```text
+<PMPA>/.claude/skills/virtual-email/SKILL.md
 ```
 
-For OpenClaw, provide the local OpenClaw state directory. The skills will be installed into its
-`workspace/skills/` directory:
+Run Claude Code from the PMPA repository root when performing evaluations.
 
-```bash
-python jobscripts/install_skills.py --target openclaw --openclaw-state-dir "/path/to/openclaw"
+## OpenClaw
+
+Copy the same skill folders into the `skills/` directory of the workspace
+used by your evaluation agent.
+
+For the default workspace, the destination is:
+
+```text
+~/.openclaw/workspace/skills/
 ```
 
-Use `--dry-run` to inspect destinations and `--skill NAME` to select individual skills.
+When using a custom `OPENCLAW_STATE_DIR` with the default workspace layout,
+the destination is:
+
+```text
+<OPENCLAW_STATE_DIR>/workspace/skills/
+```
+
+For example, the installed email skill should be located at:
+
+```text
+<OPENCLAW_STATE_DIR>/workspace/skills/virtual-email/SKILL.md
+```
+
+If your agent uses a separately configured workspace, use that workspace's
+`skills/` directory instead.
+
+Copy the individual skill folders directly into the destination; avoid
+creating an extra `skills/skills/` directory.
