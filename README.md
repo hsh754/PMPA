@@ -102,3 +102,23 @@ Run the defended injection and trigger evaluations for the calendar scenario:
 OPENCLAW_STATE_DIR="/path/to/openclaw" \
 bash jobscripts/batch/defense.sh
 ```
+
+## Paper
+
+Read our paper on [arXiv:2609.13889](https://arxiv.org/abs/2609.13889).
+
+## Citation
+
+Please cite the paper as follows if you use the data or code from PMPA:
+
+```bibtex
+@misc{huang2026pmpa,
+  title={When Malicious Instructions Persist: Persistent Memory Poisoning Attack on Harness-Based Agents},
+  author={Shuhuai Huang and Jingfeng Zhang and Hong Jia},
+  year={2026},
+  eprint={2609.13889},
+  archivePrefix={arXiv},
+  primaryClass={cs.CR},
+  url={https://arxiv.org/abs/2609.13889}
+}
+```
